@@ -148,42 +148,18 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+
+<section class="section" id="Contact">
+  <div class="container is-max-desktop content">
+    <h2 class="title">AutoGeo-100K</h2>
+    
+    <div class="content has-text-justified">
+      <img src="static/images/statistics.png" alt="MY ALT TEXT"/>
     </div>
+
   </div>
-</div>
-</div>
 </section>
+
 <!-- End image carousel -->
 
 <!--BibTex citation -->
@@ -206,9 +182,12 @@
 <section class="section" id="Contact">
   <div class="container is-max-desktop content">
     <h2 class="title">Contact</h2>
+    <p>
+      Please contact huanzh@zju.edu.cn for questions about AutoGeo.
+    </p>
     <div class="content has-text-justified">
       <p>
-        Please contact huanzh@zju.edu.cn for questions about AutoGeo.
+        AutoGeo-100K is the largest dataset relavent to Geometry figure images, it consists of 100k images of geometry figures, their corresponding natural language descriptions and clauses that decide the semantic meaning of the figures. It is automatically generated from combining 77 clauses through AutoGeo, with a image generation module generating various different images having same semantic meaning and a language generation module which generate 20 Caption Templates for each clause. We propose Geometry Captioning Tasks (GC) based on Geomatry-100K and evaluate performance of several current MLLMs on it. We also compare the difference of performances of Baselines, models tuned on AutoGeo-10K, AutoGeo-30K, AutoGeo-50K and AutoGeo-100K on Geometry Question and Answer Task (GQA). We oberseve a performance increase in both tasks when the tuning data volunme increase in AutoGeo Dataset, indicating the necessity of obtaining large amount of geometry data. Regarding the small data volume of current datasets and difficulty to obtaining geometry image and caption data, we hope to provide the community with a dataset for better studying the MLLMs in geometry and a method to generate large amount of new geometry data.
       </p>
     </div>
   </div>
